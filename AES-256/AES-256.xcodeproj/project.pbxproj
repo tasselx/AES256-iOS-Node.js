@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0468A7E51D2A198400CF3DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A7E41D2A198400CF3DEC /* main.m */; };
+		0468A7F11D2A21E000CF3DEC /* NSData+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A7EF1D2A21E000CF3DEC /* NSData+AESCrypt.m */; };
+		0468A7F31D2A222200CF3DEC /* NSString+AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468A7F21D2A222200CF3DEC /* NSString+AESCrypt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0468A7DF1D2A198400CF3DEC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0468A7E11D2A198400CF3DEC /* AES-256 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AES-256"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0468A7E41D2A198400CF3DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0468A7EE1D2A21E000CF3DEC /* NSData+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AESCrypt.h"; sourceTree = "<group>"; };
+		0468A7EF1D2A21E000CF3DEC /* NSData+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AESCrypt.m"; sourceTree = "<group>"; };
+		0468A7F01D2A21E000CF3DEC /* NSString+AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AESCrypt.h"; sourceTree = "<group>"; };
+		0468A7F21D2A222200CF3DEC /* NSString+AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AESCrypt.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0468A7DE1D2A198400CF3DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0468A7D81D2A198400CF3DEC = {
+			isa = PBXGroup;
+			children = (
+				0468A7E31D2A198400CF3DEC /* AES-256 */,
+				0468A7E21D2A198400CF3DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0468A7E21D2A198400CF3DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0468A7E11D2A198400CF3DEC /* AES-256 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0468A7E31D2A198400CF3DEC /* AES-256 */ = {
+			isa = PBXGroup;
+			children = (
+				0468A7EE1D2A21E000CF3DEC /* NSData+AESCrypt.h */,
+				0468A7EF1D2A21E000CF3DEC /* NSData+AESCrypt.m */,
+				0468A7F01D2A21E000CF3DEC /* NSString+AESCrypt.h */,
+				0468A7F21D2A222200CF3DEC /* NSString+AESCrypt.m */,
+				0468A7E41D2A198400CF3DEC /* main.m */,
+			);
+			path = "AES-256";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0468A7E01D2A198400CF3DEC /* AES-256 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0468A7E81D2A198400CF3DEC /* Build configuration list for PBXNativeTarget "AES-256" */;
+			buildPhases = (
+				0468A7DD1D2A198400CF3DEC /* Sources */,
+				0468A7DE1D2A198400CF3DEC /* Frameworks */,
+				0468A7DF1D2A198400CF3DEC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AES-256";
+			productName = "AES-256";
+			productReference = 0468A7E11D2A198400CF3DEC /* AES-256 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0468A7D91D2A198400CF3DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tassel;
+				TargetAttributes = {
+					0468A7E01D2A198400CF3DEC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0468A7DC1D2A198400CF3DEC /* Build configuration list for PBXProject "AES-256" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0468A7D81D2A198400CF3DEC;
+			productRefGroup = 0468A7E21D2A198400CF3DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0468A7E01D2A198400CF3DEC /* AES-256 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0468A7DD1D2A198400CF3DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0468A7F31D2A222200CF3DEC /* NSString+AESCrypt.m in Sources */,
+				0468A7F11D2A21E000CF3DEC /* NSData+AESCrypt.m in Sources */,
+				0468A7E51D2A198400CF3DEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0468A7E61D2A198400CF3DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0468A7E71D2A198400CF3DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0468A7E91D2A198400CF3DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0468A7EA1D2A198400CF3DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0468A7DC1D2A198400CF3DEC /* Build configuration list for PBXProject "AES-256" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468A7E61D2A198400CF3DEC /* Debug */,
+				0468A7E71D2A198400CF3DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0468A7E81D2A198400CF3DEC /* Build configuration list for PBXNativeTarget "AES-256" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468A7E91D2A198400CF3DEC /* Debug */,
+				0468A7EA1D2A198400CF3DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0468A7D91D2A198400CF3DEC /* Project object */;
+}
